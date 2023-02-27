@@ -1,0 +1,473 @@
+/* section about */
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700;900&family=Poppins:wght@500;600&display=swap");
+.background-circle {
+  background-color: #5fa8e8;
+
+  filter: blur(300px);
+  -webkit-filter: blur(300px);
+  width: 500px;
+  position: absolute;
+  border-radius: 100%;
+  border-top-top-radius: 110px; /* 100px of height + 10px of border */
+  border-top-right-radius: 110px;
+  height: 800px;
+  top: 500px;
+  left: 0;
+  transition: all 0.8s ease-in-out;
+}
+.background-circle-2 {
+  background-color: #5fa8e8;
+
+  filter: blur(600px);
+  -webkit-filter: blur(600px);
+  width: 500px;
+  position: absolute;
+  border-radius: 100%;
+  border-top-top-radius: 110px; /* 100px of height + 10px of border */
+  border-top-right-radius: 110px;
+  height: 800px;
+  top: 2000px;
+  right: 0;
+  transition: all 0.8s ease-in-out;
+}
+
+.container-about-bpupki {
+  background-color: #191d23;
+  height: fit-content;
+  padding-bottom: 200px;
+}
+.image-about-container {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.image1 {
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.image1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.image2 {
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 150px;
+}
+
+.image2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.image3 {
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+.image3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.image4 {
+  height: 300px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.image4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.about-bpupki-container {
+  padding-top: 100px;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.title-bpupki {
+  font-size: 30px;
+  color: #fff;
+
+  margin-bottom: 40px;
+
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 900;
+  max-width: 340px;
+  line-height: 60px;
+}
+.desc-bpupki {
+  max-width: 400px;
+  font-family: "Poppins";
+  color: #fff;
+}
+/* section tokoh */
+
+.container-tokoh-bpupki {
+  background-color: #191d23;
+  height: 100vh;
+  display: flex;
+  padding-top: 10px;
+}
+
+.card-team {
+  padding-top: 40px;
+
+  display: flex;
+
+  margin-left: 50px;
+  overflow-x: auto;
+  transition: all 1s ease-in-out;
+}
+
+.card-team::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.main-card {
+  background-color: #ffffff05;
+  border: 1px solid #f0f1f6;
+  margin: 20px;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+}
+.card-team-item {
+  background-color: rgba(247, 249, 247, 0);
+  width: 220px;
+  height: 290px;
+
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(
+    45deg,
+    #d71626 25%,
+    #444 25%,
+    #444 50%,
+    #e71126 50%,
+    #e4181f 75%,
+    #444 75%,
+    #444 100%
+  );
+  background-size: 40px 40px;
+  filter: grayscale(1);
+  animation: animateBg 4s linear infinite;
+  animation-play-state: paused;
+}
+
+.card-team-item img {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: height 0.5s;
+}
+.card-team-item img:hover {
+  height: 350px;
+}
+
+.card-team-item:hover {
+  animation-play-state: running;
+  filter: grayscale(0);
+}
+@keyframes animateBg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px;
+  }
+}
+.desc-hero {
+  margin-left: 15px;
+  margin-top: 5px;
+  color: rgb(185, 184, 184);
+  font-family: "Poppins", sans-serif;
+}
+
+.desc-hero span {
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #e8ebec;
+}
+.desc-hero h4 {
+  font-size: 10px;
+}
+/* .card-team-item:hover {
+  background-color: rgba(247, 249, 247, 0.1);
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  transition: all 0.3s ease-in-out;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(121, 198, 245);
+} */
+.images-team .orang-img {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  margin-top: -100px;
+}
+
+@media screen and (max-width: 1330px) {
+  .container-tokoh-bpupki {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-team {
+    margin-left: 0px;
+  }
+  .background-circle {
+    width: 300px;
+    filter: blur(150px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-bpupki-container {
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .desc-bpupki {
+    max-width: 330px;
+  }
+}
+/* @media screen and (min-width: 1330px) {
+  
+} */
+
+.wrap {
+  background-image: url("../images/backgroundtext.jpeg");
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.cards-people-container {
+  background-color: #191d23;
+  height: 100vh;
+  display: flex;
+  padding-top: 160px;
+}
+
+.card-people {
+  padding-top: 40px;
+
+  display: flex;
+
+  margin-left: 50px;
+  overflow-x: auto;
+  transition: all 1s ease-in-out;
+}
+
+.card-people::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.main-cardd {
+  background-color: #ffffff05;
+  border: 1px solid #db575a;
+  margin: 20px;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+}
+.card-team-itemm {
+  background-color: rgba(247, 249, 247, 0);
+  width: 220px;
+  height: 290px;
+
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(
+    45deg,
+    #2316d7 25%,
+    #444 25%,
+    #444 50%,
+    #2316d7 50%,
+    #2316d7 75%,
+    #444 75%,
+    #444 100%
+  );
+  background-size: 40px 40px;
+  filter: grayscale(1);
+  animation: animateBg 4s linear infinite;
+  animation-play-state: paused;
+}
+
+.card-team-itemm img {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: height 0.5s;
+}
+.card-team-itemm img:hover {
+  height: 360px;
+}
+
+.card-team-itemm:hover {
+  animation-play-state: running;
+  filter: grayscale(0);
+}
+@keyframes animateBg {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px;
+  }
+}
+.desc-heroo {
+  margin-left: 15px;
+  margin-top: 5px;
+  color: rgb(185, 184, 184);
+  font-family: "Poppins", sans-serif;
+}
+
+.desc-heroo span {
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #e8ebec;
+}
+.desc-heroo h4 {
+  font-size: 10px;
+}
+/* .card-team-item:hover {
+  background-color: rgba(247, 249, 247, 0.1);
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  transition: all 0.3s ease-in-out;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(121, 198, 245);
+} */
+.images-teamm .orang-imgg {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  margin-top: -100px;
+}
+
+.container-tugas-bpupki {
+  background-color: #191d23;
+  height: fit-content;
+  padding-top: 100px;
+}
+
+.tugas-bpupki-main .title-tugas h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: "Darker Grotesque", sans-serif;
+  margin-left: 70px;
+  margin-bottom: 40px;
+}
+
+.list-tugas hr {
+  border-top: 3px dashed #1592d071;
+  border-bottom: none;
+  width: 90%;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.list-tugas-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.list-tugas-content h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Darker Grotesque", sans-serif;
+  max-width: 400px;
+}
+.image-container-bpupki {
+  width: 300px;
+}
+
+.image-container-bpupki img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  rotate: 0deg;
+  transition: all 0.3s ease-in-out;
+}
+
+.image-container-bpupki img:hover {
+  transform: scale(0.9);
+  rotate: -10deg;
+}
+
+.deskripsi-tugas p {
+  max-width: 300px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  color: #eae6e6;
+}
+
+@media screen and (max-width: 1060px) {
+  .list-tugas-content {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .tugas-bpupki-main .title-tugas h1 {
+    margin-left: 20px;
+    max-width: 300px;
+    line-height: 60px;
+  }
+  .tugas-bpupki-main .title-tugas h1 span {
+    line-height: 20px;
+  }
+
+  .list-tugas-content h3 {
+    margin-top: 30px;
+    line-height: 40px;
+
+    font-size: 40px;
+  }
+  .image-container-bpupki img {
+    rotate: 0deg;
+  }
+  .deskripsi-tugas {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .list-tugas-content h3 {
+    max-width: 300px;
+  }
+}

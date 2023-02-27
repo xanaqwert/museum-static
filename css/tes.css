@@ -1,0 +1,79 @@
+.ourteam-title-container {
+  background-color: #191d23;
+  font-family: "Fraunces", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-weight: 900;
+}
+.container-testing {
+  background-color: #191d23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.container-testing-2 {
+  background-color: #191d23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.card-pembungkus {
+  background-color: #ffffff05;
+
+  margin: 20px;
+  height: 300px;
+  border-radius: 1px;
+  position: relative;
+}
+
+.card-item {
+  background-color: rgba(247, 249, 247, 0);
+  width: 300px;
+  height: 200px;
+  display: flex;
+
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.card-item img {
+  width: 150px;
+
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.nama-container {
+  padding-top: 20px;
+  text-align: center;
+}
+.card-pembungkus h1 {
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 10px;
+  color: white;
+}
+
+.card-pembungkus span {
+  font-size: 10px;
+  font-family: "Poppins";
+  color: rgb(175, 178, 181);
+}
+
+@media screen and (max-width: 800px) {
+  .container-title {
+    text-align: left;
+    padding-left: 40px;
+    font-size: 30px;
+    max-width: 300px;
+  }
+}
